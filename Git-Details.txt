@@ -46,9 +46,10 @@ How to remove file directory form git : git rm --cached test.txt
 We need to clone some items to our computer so git clone Url
 
 
+clone 
+git clone <url>
 
-
-
+need to list git commit and it id listed formet
 
 
 …or create a new repository on the command line
@@ -78,6 +79,19 @@ now we can use some tag for our projects releases
 
 git tag v1.01 -m "New releases"
 
-to see how many tags we have 
+to see how many tags we have .
 git tag 
 
+now we can push the tags live 
+
+git push origin <tagname>
+
+in our case
+
+git push origin v1.01
+
+git log --pretty=oneline
+
+Creating branch
+
+git checkout -b branch3
