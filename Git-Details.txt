@@ -74,5 +74,10 @@ need to see how much origin we have
 
 git remote -v
 
+now we can use some tag for our projects releases 
 
+git tag v1.01 -m "New releases"
+
+to see how many tags we have 
+git tag 
 
