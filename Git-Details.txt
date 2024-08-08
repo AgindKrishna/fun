@@ -70,7 +70,9 @@ git push -u origin main
 
 We Can Also use SSH : ssh-keygen -o
 
+need to see how much origin we have 
 
+git remote -v
 
 
 
