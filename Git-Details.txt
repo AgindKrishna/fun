@@ -97,9 +97,28 @@ in our case
 
 >> git push origin v1.01
 
+list commit and commit id
+
 >> git log --pretty=oneline
 
 Creating branch
 
 >> git checkout -b branch3
 >> git switch -c new-branch
+
+switch diffrent branches 
+
+>> git switch <branch-name>
+
+How many branch We Have :
+
+>>git branch 
+
+need to switch previous branch 
+>> git switch - (current branch to previous branch )
+
+Delete a branch 
+
+>> git branch -d <branch name >
+
+>> git branch --Delete <branch name>
