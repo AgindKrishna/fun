@@ -102,4 +102,4 @@ in our case
 Creating branch
 
 >> git checkout -b branch3
-vfj
+>> git switch -c new-branch
